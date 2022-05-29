@@ -21,6 +21,10 @@ const Style = {
     justifyContent: "space-around",
     alignItems: "center",
   },
+  link: {
+    color: "black",
+    textDecoration: "none",
+  },
 };
 
 function Footer() {
@@ -31,10 +35,18 @@ function Footer() {
       </div>
 
       <div style={Style.subContainer}>
-        <p>Privacy Policy</p>
-        <p>Terms and Conditions</p>
-        <p>Contact Us</p>
-        <p>Careers</p>
+        <a style={Style.link} href="/">
+          Privacy Policy
+        </a>
+        <a style={Style.link} href="/">
+          Terms and Conditions
+        </a>
+        <a style={Style.link} href="/">
+          Contact Us
+        </a>
+        <a style={Style.link} href="/">
+          Careers
+        </a>
       </div>
     </div>
   );

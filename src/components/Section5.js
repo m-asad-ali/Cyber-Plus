@@ -27,7 +27,14 @@ const Style = {
     borderRadius: "20px",
     width: "30%",
     height: "75vh",
-    // position: "relative",
+  },
+  card2: {
+    backgroundColor: "#1C55C9",
+    color: "white",
+    padding: "30px",
+    borderRadius: "20px",
+    width: "30%",
+    height: "75vh",
   },
   title: {
     paddingBottom: "25px",
@@ -53,7 +60,17 @@ const Style = {
     backgroundColor: "#1C55C9",
     border: "none",
     color: "white",
-    padding: "10px 30px",
+    padding: "20px 30px",
+    borderRadius: "40px",
+    fontFamily: "Chakra Petch",
+    fontSize: "20px",
+    width: "100%",
+  },
+  whiteBtn: {
+    backgroundColor: "white",
+    border: "none",
+    color: "1C55C9",
+    padding: "20px 30px",
     borderRadius: "40px",
     fontFamily: "Chakra Petch",
     fontSize: "20px",
@@ -87,7 +104,7 @@ function Section5() {
           <button style={Style.blueBtn}>Start Free Trail</button>
         </div>
 
-        <div style={Style.card1}>
+        <div style={Style.card2}>
           <div style={Style.title}>
             <h4 style={Style.h4}>Regular</h4>
             <p style={{ fontSize: "20px", margin: "0" }}>
@@ -102,7 +119,7 @@ function Section5() {
             <p style={Style.p}>15 Days group page saved</p>
           </div>
 
-          <button style={Style.blueBtn}>Start Free Trail</button>
+          <button style={Style.whiteBtn}>Start Free Trail</button>
         </div>
 
         <div style={Style.card1}>
